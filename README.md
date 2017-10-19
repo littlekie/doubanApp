@@ -1,6 +1,6 @@
 # mv
 Vue 仿豆瓣app做的一个demo
-> douban movie item<br/>
+> douban APP item<br/>
 
 
 豆瓣电影api跨域问题，我是直接通过this.$http.jsonp请求获得的，请求地址也加了apikey（别人的）<br/>
