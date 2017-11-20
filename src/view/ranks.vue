@@ -81,7 +81,12 @@
         });
 			},
 			topThree(value){
-				return value.slice(0,3)
+				
+				if(value){
+					console.dir( value.slice(0,3))
+				return value.slice(0,3);
+
+				}
 			},
 			sliceHead(value){
 				return value.slice(4)

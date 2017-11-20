@@ -3,20 +3,20 @@
     <div class="nav_box">
       <ul>
         <router-link tag='li' :to="{name:'MovieList'}" class="nav_item">
-          <i class="iconfont icon-dianyingziyuan"></i>
+          <Icon type="ios-videocam"></Icon>
           <p class="nav_name">热映</p>
         </router-link>
         <router-link tag='li' :to="{name:'ranks'}" class="nav_item">
-          <i class="iconfont icon-yanjing"></i>
+          <Icon type="ios-film"></Icon>
           <p class="nav_name">找片</p>
         </router-link>
         <router-link tag='li' :to="{name:'book'}" class="nav_item">
-          <i class="iconfont icon-piao"></i>
+          <Icon type="ios-book"></Icon>
           <p class="nav_name">书城</p>
         </router-link>
         <router-link tag='li' :to="{name:'about'}" class="nav_item">
-          <i class="iconfont icon-wode"></i>
-          <p class="nav_name">我的</p>
+          <Icon type="ios-person"></Icon>
+         <p class="nav_name">我的</p>
         </router-link>
       </ul>
     </div>
@@ -63,7 +63,13 @@
   }
 
   .nav_box .nav_item.router-link-active.router-link-exact-active {
-    color: #222;
+    color: #4f98fb;
+    background: linear-gradient(#efd491,#e1a708);
   }
-
+  .ivu-icon{
+    font-size: 27px;
+  }
+  .nav_box[data-v-2b946c50]{
+    background: #34495e;
+  }
 </style>
