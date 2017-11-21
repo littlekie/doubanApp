@@ -4,7 +4,9 @@ Vue 仿豆瓣app做的一个demo
 > 目前的功能还没有完全完善，后续会慢慢更新与完善，有哪里写的不好的地方欢迎Issues<br/>
 > 特别对性能这一块，我基本没考虑到。
 # 项目预览地址
-![任务管理器](/mydouban.png)
+> 手机端预览![app地址](/mydouban.png)<br/>
+> [PC端预览地址](http://littleki.com/mydouban/#/)
+
 
 豆瓣电影api跨域问题，我是直接通过this.$http.jsonp请求获得的，请求地址也加了apikey（别人的）<br/>
 
